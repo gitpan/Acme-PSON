@@ -3,7 +3,7 @@ package Acme::PSON;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use strict;
 use warnings;
@@ -21,7 +21,7 @@ sub obj2pson {
 
     local $Data::Dumper::Indent  = 0;
     local $Data::Dumper::Varname = $VARNAME;
-    return Dumper( $obj );
+    return Dumper($obj);
 }
 
 sub pson2obj {
@@ -29,13 +29,13 @@ sub pson2obj {
 
     no strict;
 
-    &_is_dumpeddata( $str ) ? eval ( $str ) : croak "No PSON Data!";
+    &_is_dumpeddata($str) ? eval($str) : croak "No PSON Data!";
 }
 
 sub _is_dumpeddata {
     my $str = shift;
 
-    return ( $str =~/^\$$VARNAME/) ? 1 : 0;
+    return ( $str =~ /^\$$VARNAME/ ) ? 1 : 0;
 }
 
 1;
@@ -44,9 +44,9 @@ sub _is_dumpeddata {
 
 Acme::PSON - PSON(PerlScript Object Notation) Module
 
-=head1 SYNOPSYS
+=head1 SYNOPSIS
 
- use PSON qw(obj2pson pson2obj);
+ use Acme::PSON qw(obj2pson pson2obj);
 
  my $data = { x=> 'adfs' , y => 'adf' };
 
@@ -72,5 +72,11 @@ get hash_ref or array_ref.
 
 Masahiro Funakoshi <masap@cpan.org>
 Tomohiro Teranishi <tomohiro.teranishi@gmail.com>
+
+=head1 COPYRIGHT AND LISENCE
+
+Copyright (c) Tomohiro Teranishi, All rights reserved.
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.  See L<perlartistic>.
 
 =cut
