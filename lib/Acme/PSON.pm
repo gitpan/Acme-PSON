@@ -3,7 +3,7 @@ package Acme::PSON;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use strict;
 use warnings;
@@ -71,11 +71,12 @@ get hash_ref or array_ref.
 =head1 AUTHOR
 
 Masahiro Funakoshi <masap@cpan.org>
+
 Tomohiro Teranishi <tomohiro.teranishi@gmail.com>
 
-=head1 COPYRIGHT AND LISENCE
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) Tomohiro Teranishi, All rights reserved.
+Copyright 2008 Tomohiro Teranishi, All rights reserved.
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.  See L<perlartistic>.
 

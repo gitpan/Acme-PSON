@@ -1,5 +1,8 @@
 Revision history for Acme-PSON
 
+0.03    2008-04-06/15:26
+        - add spelling.t
+
 0.02    2008-04-06/10:18
         - FIX typo
         - using Module::Install

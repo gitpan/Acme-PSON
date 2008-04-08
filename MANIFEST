@@ -20,3 +20,4 @@ t/01-app.t
 t/boilerplate.t
 t/pod-coverage.t
 t/pod.t
+t/spelling.t
