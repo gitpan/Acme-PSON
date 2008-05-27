@@ -3,7 +3,7 @@ package Acme::PSON;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use strict;
 use warnings;
@@ -76,7 +76,7 @@ Tomohiro Teranishi <tomohiro.teranishi@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2008 Tomohiro Teranishi, All rights reserved.
+Copyright 2008 Tomohiro Teranishi.
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.  See L<perlartistic>.
 

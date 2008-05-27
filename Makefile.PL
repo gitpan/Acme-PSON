@@ -7,7 +7,6 @@ author 'Tomohiro Teranishi <tomohiro.teranishi@gmail.com>';
 all_from 'lib/Acme/PSON.pm';
 requires 'Test::More'     => 0;
 requires 'Readonly'       => 0;
-requires 'Test::Spelling' => 0;
 license 'perl';
 auto_install;
 WriteAll;

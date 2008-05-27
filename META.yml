@@ -16,5 +16,4 @@ no_index:
 requires: 
   Readonly: 0
   Test::More: 0
-  Test::Spelling: 0
-version: 0.03
+version: 0.04
