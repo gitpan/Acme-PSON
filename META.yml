@@ -14,6 +14,7 @@ no_index:
     - inc
     - t
 requires: 
+  Exporter::Lite: 0
   Readonly: 0
   Test::More: 0
-version: 0.04
+version: 0.05

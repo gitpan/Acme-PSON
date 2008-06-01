@@ -3,14 +3,14 @@ package Acme::PSON;
 use strict;
 use warnings;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use strict;
 use warnings;
 use vars qw( @EXPORT_OK );
 use Carp;
 use Data::Dumper;
-use Exporter 'import';
+use Exporter::Lite;
 @EXPORT_OK = qw(obj2pson pson2obj);
 
 use Readonly;
